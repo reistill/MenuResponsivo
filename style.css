@@ -1,0 +1,44 @@
+#suprema {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    width: 1000px;
+}
+
+.flex-similar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    color: white;
+    background-color: #0066aa;
+}
+
+.cabecalho-flex {
+    height: 100px;
+    margin-bottom: 5px;
+}
+
+.conteudo-flex {
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+    text-align: start;
+    align-items: center;
+
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+}
+
+
+@media (mix-width:600px) {
+    .menu-conteudo-flex {
+        flex-direction: row;
+    }
+} 
+
+.rodape-flex {
+    margin-top: 5px;
+}
