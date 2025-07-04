@@ -1,10 +1,15 @@
 #suprema {
     display: flex;
     flex-direction: column;
+
+    width: 400px;
+}
+
+html, body {
+    display: flex;
     justify-content: center;
     align-items: center;
-    height: 900px;
-    width: 1000px;
+    height: 100%;
 }
 
 .flex-similar {
@@ -24,16 +29,19 @@
 .conteudo-flex {
     display: flex;
     flex-direction: column;
-    justify-self: start;
     text-align: start;
-    align-items: center;
+
 
     color: rgb(0, 0, 0);
     background-color: #ffffff;
 }
 
+.menu-conteudo-flex {
+    display: flex;
+    flex-direction: column;
+}
 
-@media (mix-width:600px) {
+@media (min-width:600px) {
     .menu-conteudo-flex {
         flex-direction: row;
     }
